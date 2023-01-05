@@ -9,4 +9,11 @@ class DosenModel extends Model
 {
     use HasFactory;
     protected $table = 'tb_dosen';
+    protected $fillable = [
+        'id_dosen',
+        'nip',
+        'nama_dosen',
+        'foto_dosen',
+        ];
+
 }
